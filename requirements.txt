@@ -1,0 +1,10 @@
+torch==2.14.1           # install with --torch-backend=cu126 (README): runs on CUDA 12 and 13 drivers
+transformers==5.23.0
+peft==0.21.3            # LoRA
+accelerate==1.16.0
+datasets==5.2.0
+lm-eval==0.4.13         # the prior-task benchmarks (IFEval, HumanEval)
+langdetect==1.0.9       # the next three are needed by IFEval
+immutabledict==4.3.1
+nltk==3.10.4
+matplotlib==3.11.2
